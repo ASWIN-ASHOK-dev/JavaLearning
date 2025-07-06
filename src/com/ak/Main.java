@@ -2,11 +2,14 @@ package com.ak;
 
 import java.util.Arrays;
 import java.util.Date;
+import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-       final String owner = "Aswin Ashok ";
-
-        System.out.println(owner + 2/3);
+        String user = new String();
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("what is your name ");
+        user  = scanner.next();
+        System.out.println("Welcome "+user);
     }
 }
